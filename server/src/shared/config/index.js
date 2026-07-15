@@ -15,8 +15,8 @@ const config = {
     dbName: process.env.MONGO_DB_NAME || "api_monitoring",
   },
 
-  // Postgress
-  postgress: {
+  // Postgres
+  postgres: {
     host: process.env.PG_HOST || "localhost",
     port: parseInt(process.env.PG_PORT || "5432", 10),
     database: process.env.PG_DATABASE || "api_monitoring",
